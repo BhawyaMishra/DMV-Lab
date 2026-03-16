@@ -2,7 +2,6 @@ import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 import numpy as np
 
-# USER INPUT
 speed = float(input("Enter circle speed (example 0.05): "))
 frames = int(input("Enter number of frames (example 200): "))
 
@@ -28,9 +27,7 @@ ani = animation.FuncAnimation(
     update,
     frames=frames,
     interval=30,
-    blit=True
-   
-    
+    blit=True    
 )
 plt.grid()
 plt.show()
