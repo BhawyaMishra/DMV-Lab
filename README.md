@@ -2,7 +2,6 @@ _**DMV-LAB**_
 Python lab work for the Data Management and Visualization subject, covering static charts, user-input-driven plots, animations, missing-value handling, dataset cleaning, and graph visualization.
 
 **Topics Covered**
-
 static plotting with Matplotlib
 dynamic plotting from user input
 basic animation with matplotlib.animation
